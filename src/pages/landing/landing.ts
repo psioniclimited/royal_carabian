@@ -21,6 +21,10 @@ export class LandingPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad LandingPage');
   }
-  
+
+  hello(text:string){
+    console.log(text);
+  }
+
 
 }

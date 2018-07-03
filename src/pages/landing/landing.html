@@ -6,22 +6,91 @@
             <ion-icon name="menu"></ion-icon>
         </button>
     </ion-buttons>
-    
+
     <ion-title ion-text class="title-text">Crown of Miami</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content>
-  <div ion-text text-center color="light" class="weather-widget">
-      <ion-icon name="sunny"></ion-icon>
-      WEATHER 20F
+<ion-content class="has-header">
+  <div ion-text text-center  color="light" class="weather-widget">
+      <div class="weather-inner">
+          <ion-icon name="sunny"></ion-icon>
+          WEATHER 20F
+      </div>
+
   </div>
 
-  <ion-img style="width: 100%; height: 210px;" no-padding src="assets/imgs/ship.png"></ion-img>
-  
-      
-    
+  <div>
+    <!--//use card image remove the margin-->
+      <ion-img style="width: 100%; height: 210px;" no-padding src="assets/imgs/ship.png"></ion-img>
+  </div>
 
+  <!--set the background image of this div-->
+  <div class="div-image">
+  <ion-grid no-padding no-margin>
+
+    <ion-row no-padding no-margin>
+      <ion-col  no-padding no-margin text-center>
+
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p color="danger">
+          testing
+        </p>
+
+      </ion-col>
+      <ion-col  no-padding no-margin text-center>
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p >
+          testing
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row no-padding no-margin>
+      <ion-col  no-padding no-margin text-center>
+
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p color="danger">
+          testing
+        </p>
+
+      </ion-col>
+      <ion-col  no-padding no-margin text-center>
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p >
+          testing
+        </p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row no-padding no-margin>
+      <ion-col  no-padding no-margin text-center (click)="hello('hello')">
+
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p color="danger">
+          testing
+        </p>
+
+      </ion-col>
+      <ion-col  no-padding no-margin text-center (click)="hello('welcome')">
+        <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+
+        <p >
+          testing
+        </p>
+      </ion-col>
+    </ion-row>
+
+
+
+
+  </ion-grid>
+  </div>
 </ion-content>
