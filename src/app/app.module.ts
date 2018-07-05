@@ -7,12 +7,17 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { LandingPage } from '../pages/landing/landing';
 
+//components
+import { ComponentsTitleComponent } from '../components/components-title/components-title'
+import {ComponentsWeatherComponent} from "../components/components-weather/components-weather";
+
 
 @NgModule({
   declarations: [
     MyApp,
-    LandingPage
-    
+    LandingPage,
+    ComponentsTitleComponent,
+    ComponentsWeatherComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,8 +26,9 @@ import { LandingPage } from '../pages/landing/landing';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    LandingPage
-    
+    LandingPage,
+    ComponentsTitleComponent,
+    ComponentsWeatherComponent,
   ],
   providers: [
     StatusBar,

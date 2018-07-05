@@ -7,20 +7,15 @@
         </button>
     </ion-buttons>
 
-    <ion-title ion-text class="title-text">Crown of Miami</ion-title>
+    <!--<ion-title ion-text class="title-text">Crown of Miami</ion-title>-->
+    <components-title></components-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
-  <div ion-text text-center  color="light" class="weather-widget">
-      <div class="weather-inner">
-          <ion-icon name="sunny"></ion-icon>
-          WEATHER 20F
-      </div>
-
-  </div>
+  <components-weather></components-weather>
 
   <div no-margin no-padding>
     <!--//use card image remove the margin-->
@@ -38,19 +33,23 @@
       <ion-col class="button-icon" no-padding no-margin text-center>
 
         <!--<ion-img width="80" height="80" src="assets/imgs/in_logo.png"></ion-img>-->
+        <div class="test-opacity">
 
-        <img style="width: 15vw; height: 15vh;" src="assets/imgs/fifa.png" alt="hello">
-        <p color="danger">
-          testing
-        </p>
+          <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
+            <p color="danger">
+              testing
+            </p>
+          </div>
 
       </ion-col>
       <ion-col  no-padding no-margin text-center>
+        <div class="new-color">
         <img style="width: 15vw; height: 15vh;" src="assets/imgs/in_logo.png" alt="hello">
 
         <p >
           testing
         </p>
+        </div>>
       </ion-col>
     </ion-row>
 
@@ -91,10 +90,6 @@
         </p>
       </ion-col>
     </ion-row>
-
-
-
-
   </ion-grid>
   </div>
 </ion-content>
