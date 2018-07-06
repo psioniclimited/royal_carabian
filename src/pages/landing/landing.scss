@@ -41,26 +41,45 @@ page-landing {
     height: auto;
   }
 
-  .test-opacity{
-    opacity: 0.61;
-    background-color: #e7ebef;
+  .grid-background1{
+    background: url(../assets/background/bckg1.png) ;
+    background-size: auto;
+
+
   }
 
-  .test-opacity:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    //background: url(https://techcrunch.com/wp-content/uploads/2018/03/gettyimages-705351545.jpg?w=1390&crop=1) center;
-    background: url(../assets/imgs/Embarkation.png) center;
-    background-color: red;
-    background-size: 25px 10px;
+  .grid-background2{
+    background: url(../assets/background/bckg2.png) ;
   }
-  .new-color{
-    opacity: 0.80;
-    background-color: #f4f6f8;
+
+  .gird-background3{
+    background: url(../assets/background/bckg3.png) ;
   }
+
+  .gird-background4{
+    background: url(../assets/background/bckg4.png) ;
+  }
+
+  .gird-background5{
+    background: url(../assets/background/bckg5.png) ;
+  }
+
+  .gird-background6{
+    background: url(../assets/background/bckg6.png) ;
+  }
+
+  //.test-opacity:before {
+  //  content: "";
+  //  position: absolute;
+  //  top: 0;
+  //  bottom: 0;
+  //  left: 0;
+  //  right: 0;
+  //  //background: url(https://techcrunch.com/wp-content/uploads/2018/03/gettyimages-705351545.jpg?w=1390&crop=1) center;
+  //  background: url(../assets/imgs/Embarkation.png) center;
+  //  //background-color: red;
+  //  background-size: 25px 10px;
+  //}
+
 
 }
