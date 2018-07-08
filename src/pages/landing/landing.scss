@@ -12,8 +12,6 @@ page-landing {
         margin-top: 1.5vh;
     }
 
-
-
     .icon-text{
         font-size: 25px;
     }
@@ -34,42 +32,12 @@ page-landing {
     height: auto;
   }
 
-  .div-image {
-    background: url("../assets/imgs/port.png") no-repeat;
-    opacity: 0.25;
-    width: 100%;
-    height: auto;
-  }
+
   .label-text{
     font-weight: bold;
   }
 
-  .grid-background1{
-    background: url(../assets/background/bckg1.png) ;
-    background-size: auto;
 
-
-  }
-
-  .grid-background2{
-    background: url(../assets/background/bckg2.png) ;
-  }
-
-  .gird-background3{
-    background: url(../assets/background/bckg3.png) ;
-  }
-
-  .gird-background4{
-    background: url(../assets/background/bckg4.png) ;
-  }
-
-  .gird-background5{
-    background: url(../assets/background/bckg5.png) ;
-  }
-
-  .gird-background6{
-    background: url(../assets/background/bckg6.png) ;
-  }
 
   //.test-opacity:before {
   //  content: "";
@@ -83,6 +51,20 @@ page-landing {
   //  //background-color: red;
   //  background-size: 25px 10px;
   //}
+
+  .card-title {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    font-weight: bold;
+    color: #54adad;
+  }
+
+  .card-image{
+    width: auto;
+    height: auto;
+  }
+
 
 
 }
