@@ -6,10 +6,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { LandingPage } from '../pages/landing/landing';
+import {EmbarkationPage} from "../pages/embarkation/embarkation";
 
 //components
 import { ComponentsTitleComponent } from '../components/components-title/components-title'
 import {ComponentsWeatherComponent} from "../components/components-weather/components-weather";
+
 
 
 @NgModule({
@@ -18,6 +20,7 @@ import {ComponentsWeatherComponent} from "../components/components-weather/compo
     LandingPage,
     ComponentsTitleComponent,
     ComponentsWeatherComponent,
+    EmbarkationPage,
   ],
   imports: [
     BrowserModule,
@@ -29,6 +32,7 @@ import {ComponentsWeatherComponent} from "../components/components-weather/compo
     LandingPage,
     ComponentsTitleComponent,
     ComponentsWeatherComponent,
+    EmbarkationPage,
   ],
   providers: [
     StatusBar,
