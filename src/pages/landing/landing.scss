@@ -30,7 +30,6 @@ page-landing {
     }
    .hero-card{
     width: 100%;
-    height: auto;
   }
 
 
@@ -68,7 +67,7 @@ page-landing {
 
   /* iPhone 6+ ----------- */
   @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
-    [class*="hero-image"] {
+    [class*="hero-card"] {
       height: 20.4rem;
 
     }
@@ -76,15 +75,20 @@ page-landing {
 
   /* iPhone 6 ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
-    [class*="hero-image"] {
+    [class*="hero-card"] {
       height: 17.5rem;
 
     }
   }
-  @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-    [class*="hero-image"] {
-      height: 22rem;
 
+  /* iPhone x ----------- */
+  @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    [class*="hero-card"] {
+      height: 31rem;
+      display: grid;
+    }
+    [class*="hero-image"] {
+      //height: 100%;
     }
   }
 

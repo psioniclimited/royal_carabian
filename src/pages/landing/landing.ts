@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'landing.html',
 })
 export class LandingPage {
-
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
