@@ -14,26 +14,17 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-// @font-face{
-//     font-family: 'Montserrat', sans-serif;
-//     src: url('../assets/Montserrat-Medium.woff2') format('woff2');
-//     font-size: 10.03pt;
-
-// }
-// *{
-//     font-family: 'Montserrat', sans-serif;
-// }
 @font-face {
-	
-    font-family: 'Montserrat', sans-serif;
-    src: url('../assets/Montserrat-Medium.woff2') format('woff2');
+  font-family: Montserrat;
+  src: url("../assets/fonts/montserrat/montserratMedium.woff2");
 }
 
-*{
-	font-family:  'Montserrat';
-	letter-spacing: 1.5px;
-	font-size: 1.5rem;
+* {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 1.5rem;
 }
+
 .app-icon-height img {
     height: 4.5vh;
 }
