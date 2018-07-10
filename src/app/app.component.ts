@@ -32,7 +32,7 @@ export class MyApp {
   }
 
   emba(){
-    this.nav.push(EmbarkationPage);
+    this.nav.setRoot(EmbarkationPage);
     this.menuCtrl.close();
   }
 

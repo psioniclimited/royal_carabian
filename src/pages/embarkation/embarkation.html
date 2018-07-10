@@ -7,12 +7,38 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>embarkation</ion-title>
-  </ion-navbar>
+    <ion-buttons end>
+      <button ion-button menuToggle end>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
 
+    <!--<ion-title ion-text class="title-text">Crown of Miami</ion-title>-->
+    <components-title title="EMBARKATION" ></components-title>
+  </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <ion-grid no-padding no-margin>
+
+    <ion-row no-padding no-margin>
+      <ion-col no-padding no-margin >
+        <ion-card no-padding no-margin class="hero-card">
+          <img class="hero-image" src="assets/imgs/ship2.png"/>
+          <div text-center class="card-title custom-card-title-over-hero-img">TERMINAL OPENING TIME</div>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row no-padding no-margin>
+      <ion-col no-padding no-margin >
+
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+
 
 </ion-content>
