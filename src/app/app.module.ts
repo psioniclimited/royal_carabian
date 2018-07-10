@@ -11,6 +11,7 @@ import {EmbarkationPage} from "../pages/embarkation/embarkation";
 //components
 import { ComponentsTitleComponent } from '../components/components-title/components-title'
 import {ComponentsWeatherComponent} from "../components/components-weather/components-weather";
+import {EmbarkationComponent} from "../components/embarkation/embarkation";
 
 
 
@@ -21,6 +22,8 @@ import {ComponentsWeatherComponent} from "../components/components-weather/compo
     ComponentsTitleComponent,
     ComponentsWeatherComponent,
     EmbarkationPage,
+    EmbarkationComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,8 @@ import {ComponentsWeatherComponent} from "../components/components-weather/compo
     ComponentsTitleComponent,
     ComponentsWeatherComponent,
     EmbarkationPage,
+    EmbarkationComponent,
+
   ],
   providers: [
     StatusBar,
