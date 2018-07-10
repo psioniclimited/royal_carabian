@@ -1,3 +1,27 @@
 embarkation {
+  .post-container {
+    margin: 0 0 0 0;
+    overflow: auto;
+  }
+  .post-thumb {
+    float: left
+  }
+  .post-thumb img {
+    display: block;
+    background-color: #54adad;
+    border-radius: 50%;
+    max-height: 5rem;
+  }
+  .post-content {
+    margin-left: 1rem;
+  }
+  .post-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
 
+  .vertical-line {
+    border-left: solid #ff0000;
+    margin-left: 2rem;
+  }
 }
