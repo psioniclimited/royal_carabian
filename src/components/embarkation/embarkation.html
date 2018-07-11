@@ -1,16 +1,16 @@
 <!-- Generated template for the EmbarkationComponent component -->
-<div>
+<div *ngFor="let data of constant_data; let i = index;">
   <ion-row no-padding no-margin>
     <ion-col no-padding no-margin >
       <div class="post-container">
         <div class="vertical-line">
           <br><br>
         </div>
-        <div class="post-thumb"><img src="assets/background/embrkicon1.png" /></div>
+        <div class="post-thumb"><img src={{data.image}}/></div>
         <div class="post-content vertical-line">
-          <h3 class="post-title">PRE BOARDING</h3>
-          <h3 class="post-time">10:30 AM</h3>
-          <p class="boarding-info">Lorem ipsum dolor sit amet,  maxime modi non pariatur recusandae? Ex explicabo facere laborum.</p></div>
+          <h3 class="post-title">{{data.title}}</h3>
+          <h3 class="post-time">{{data.time}}</h3>
+          <p class="boarding-info">{{data.description}}</p></div>
       </div>
     </ion-col>
   </ion-row>
