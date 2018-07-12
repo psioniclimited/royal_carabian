@@ -7,7 +7,7 @@
           <br><br>
         </div>
         <div class="post-thumb"><img src={{data.image}}/></div>
-        <div [ngClass]="{'vertical-line':i<3}" class="post-content">
+        <div [ngClass]="{'vertical-line':i<3, 'extra-left-margin':i===3}" class="post-content">
           <h3 class="post-title">{{data.title}}</h3>
           <h3 class="post-time">{{data.time}}</h3>
           <p class="boarding-info">{{data.description}}</p>
