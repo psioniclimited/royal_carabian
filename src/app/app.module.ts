@@ -12,6 +12,7 @@ import {EmbarkationPage} from "../pages/embarkation/embarkation";
 import { ComponentsTitleComponent } from '../components/components-title/components-title'
 import {ComponentsWeatherComponent} from "../components/components-weather/components-weather";
 import {EmbarkationComponent} from "../components/embarkation/embarkation";
+import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
 
 
 
@@ -23,6 +24,7 @@ import {EmbarkationComponent} from "../components/embarkation/embarkation";
     ComponentsWeatherComponent,
     EmbarkationPage,
     EmbarkationComponent,
+    LandingMenuComponent,
 
   ],
   imports: [
@@ -37,6 +39,7 @@ import {EmbarkationComponent} from "../components/embarkation/embarkation";
     ComponentsWeatherComponent,
     EmbarkationPage,
     EmbarkationComponent,
+    LandingMenuComponent,
 
   ],
   providers: [
