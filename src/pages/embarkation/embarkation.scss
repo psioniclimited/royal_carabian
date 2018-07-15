@@ -31,8 +31,8 @@ page-embarkation {
 
   .documents{
     width: 100%;
-    height: 32rem;
-    padding-top: 2rem;
+    height: 65vh;
+    margin-top: 5vh;
     position: relative;
     text-align: center;
     background: #54adad;
@@ -43,23 +43,38 @@ page-embarkation {
     font-weight: bold;
     font-size: large;
     position: absolute;
-    top: 14%;
+    top: 8%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   .passport{
-    width: 9rem;
-    position: absolute;
-    top: 37%;
-    left: 45%;
-    transform: translate(-50%, -50%);
+    width: 38vw;
+    display:block;
+    margin:auto;
+    padding-top: 9vh;
   }
-  .passport.pass-text{
-    padding-top: 14rem;
+  .photo-image{
+    width: 35vw;
+  }
+
+  .label-text{
     color: white;
     font-weight: bold;
-    font-size: small;
+    font-size: 1rem;
   }
+  //.column {
+  //  float: left;
+  //  width: 33.33%;
+  //  padding: 5px;
+  //
+  //}
+  //
+  ///* Clear floats after image containers */
+  //.row::after {
+  //  content: "";
+  //  clear: both;
+  //  display: table;
+  //}
 
 
 
