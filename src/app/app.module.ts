@@ -13,6 +13,7 @@ import { ComponentsTitleComponent } from '../components/components-title/compone
 import {ComponentsWeatherComponent} from "../components/components-weather/components-weather";
 import {EmbarkationComponent} from "../components/embarkation/embarkation";
 import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
+import {ParkingTransportPage} from "../pages/parking-transport/parking-transport";
 
 
 
@@ -25,6 +26,7 @@ import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
     EmbarkationPage,
     EmbarkationComponent,
     LandingMenuComponent,
+    ParkingTransportPage,
 
   ],
   imports: [
@@ -40,6 +42,7 @@ import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
     EmbarkationPage,
     EmbarkationComponent,
     LandingMenuComponent,
+    ParkingTransportPage,
 
   ],
   providers: [

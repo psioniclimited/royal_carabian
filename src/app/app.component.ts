@@ -6,6 +6,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LandingPage } from '../pages/landing/landing';
 import {EmbarkationPage} from "../pages/embarkation/embarkation";
+import {ParkingTransportPage} from "../pages/parking-transport/parking-transport";
 @Component({
   templateUrl: 'app.html'
 })
@@ -13,6 +14,7 @@ export class MyApp {
 
   settingsPage = LandingPage;
   displayPage = LandingPage ;
+  parkingPage = ParkingTransportPage;
   @ViewChild('nav') nav: NavController;
 
 
