@@ -1,3 +1,57 @@
 page-parking-transport {
 
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .hero-card{
+    width: 100%;
+  }
+  .hero-image{
+    width: 100%;
+    height: 25vh;
+
+  }
+
+  .card-title {
+    position: absolute;
+    top: 25%;
+    font-size: 1.2em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    font-weight: bold;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .card-button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .parking-image{
+    width: 100%;
+    height: 50vh;
+  }
+  .parking-title{
+
+    position: absolute;
+    top: 25%;
+    font-size: 1.2em;
+    width: 100%;
+    font-weight: bold;
+    color: #54adad;
+
+  }
+
 }
