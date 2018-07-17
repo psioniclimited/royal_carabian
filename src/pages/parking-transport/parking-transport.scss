@@ -44,6 +44,33 @@ page-parking-transport {
     width: 100%;
     height: auto;
   }
+  .parking-title{
+    margin-top: 1.5vh;
+    color: #54adad;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .parking-paragraph{
+    margin-top: 1.2vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    text-align: justify;
+    color: #838383;
+  }
+  .rate-card{
+    margin-top: 2vh;
+  }
+
+  .rate-heading{
+    color: #54adad;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .rate-text{
+    color: #54adad;
+    font-size: small;
+  }
 
 
 }
