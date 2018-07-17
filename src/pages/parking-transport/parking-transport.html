@@ -44,14 +44,14 @@
     <ion-row no-padding no-margin>
       <ion-col col-6 no-padding no-margin >
         <ion-card  no-padding no-margin class="rate-card">
-          <div class="rate-heading">1240</div>
-          <div class="rate-text">PARKING SPACE</div>
+          <h1 style="color: #54adad; font-weight: bold;" >1240</h1>
+          <h6 style="font-size: 0.45rem; font-weight: bold; color: #54adad;">PARKING SPACE</h6>
         </ion-card>
       </ion-col>
       <ion-col col-6 no-padding no-margin >
         <ion-card  no-padding no-margin class="rate-card">
-          <div class="rate-heading">20$/HR</div>
-          <div class="rate-text">RATE</div>
+          <h1 style="color: #54adad; font-weight: bold;" >20$/HR</h1>
+          <h6 style="font-size: 0.45rem; font-weight: bold; color: #54adad;">RATE</h6>
         </ion-card>
       </ion-col>
     </ion-row>
@@ -66,11 +66,19 @@
 
     <ion-row no-padding no-margin>
       <ion-col no-padding no-margin >
-        <ion-card no-padding no-margin class="transport-card">
-          <div class="circle"></div>
-          <img class="transport-image" src="assets/imgs/coach.png" alt="">
-          <div class="transport-title">TRANSPORTATION</div>
-        </ion-card>
+        <ion-list>
+          <ion-item text-wrap class="transport-item">
+            <ion-avatar item-start>
+              <img class="transport-image" src="assets/imgs/coach.png">
+            </ion-avatar>
+            <h2 style="color: white; padding-bottom: 2vh; font-weight: bold;">TRANSPORTATION</h2>
+            <br>
+            <h3 style="color: white; font-weight: bolder;">COACH TRANSFERS</h3>
+            <p style="color: white; line-height: normal; hyphens: auto;">Transfer service via coach shuttle can be purchased for the pre and post cruise arrangements.
+            Purchase of transfer ticker can be made through your travel agent, cruise line or directly onboard. Please check with your
+            cruise line for further details.</p>
+          </ion-item>
+        </ion-list>
       </ion-col>
     </ion-row>
   </ion-grid>

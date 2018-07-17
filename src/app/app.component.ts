@@ -29,12 +29,12 @@ export class MyApp {
   }
 
   onLoad(page: any){
-    this.nav.setRoot(page);
+    this.nav.push(page);
     this.menuCtrl.close();
   }
 
   emba(){
-    this.nav.setRoot(EmbarkationPage);
+    this.nav.push(EmbarkationPage);
     this.menuCtrl.close();
   }
 

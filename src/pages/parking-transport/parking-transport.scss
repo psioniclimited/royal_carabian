@@ -65,44 +65,21 @@ page-parking-transport {
   .rate-heading{
     color: #54adad;
     font-weight: bold;
-    font-size: larger;
+    font-size: 3rem;
   }
   .rate-text{
     color: #54adad;
-    font-size: small;
-  }
-
-  .transport-card{
-    margin-top: 5vh;
-    background: #54adad;
-    width: 100%;
-    height: 35vh;
-  }
-
-  .circle {
-    margin-top: 9vh;
-    margin-left: 3vw;
-    background: #ffffff;
-    width: 28%;
-    height: 42%;
-    border-radius: 50%;
-  }
-  .transport-image{
-    width: 18vw;
-    position: absolute;
-    top: 48%;
-    left: 17%;
-    transform: translate(-50%, -50%);
-  }
-
-  .transport-title{
-    color: #ffffff;
-    position: absolute;
-    top: 10%;
-    left: 57%;
-    transform: translate(-50%, -50%);
+    font-size: smaller;
     font-weight: bold;
-    font-size: larger ;
+  }
+  .transport-item{
+    background: #54adad;
+    margin-top: 5vh;
+    //height: 50vh;
+  }
+
+  .transport-image{
+    background-color: white;
   }
 
 
