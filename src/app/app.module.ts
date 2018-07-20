@@ -14,6 +14,8 @@ import {ComponentsWeatherComponent} from "../components/components-weather/compo
 import {EmbarkationComponent} from "../components/embarkation/embarkation";
 import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
 import {ParkingTransportPage} from "../pages/parking-transport/parking-transport";
+import {FaqPage} from "../pages/faq/faq";
+import {ContactPage} from "../pages/contact/contact";
 
 
 
@@ -27,6 +29,8 @@ import {ParkingTransportPage} from "../pages/parking-transport/parking-transport
     EmbarkationComponent,
     LandingMenuComponent,
     ParkingTransportPage,
+    FaqPage,
+    ContactPage,
 
   ],
   imports: [
@@ -43,6 +47,8 @@ import {ParkingTransportPage} from "../pages/parking-transport/parking-transport
     EmbarkationComponent,
     LandingMenuComponent,
     ParkingTransportPage,
+    FaqPage,
+    ContactPage,
 
   ],
   providers: [
