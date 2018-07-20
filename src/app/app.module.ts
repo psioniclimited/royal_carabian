@@ -16,6 +16,8 @@ import {LandingMenuComponent} from "../components/landing-menu/landing-menu";
 import {ParkingTransportPage} from "../pages/parking-transport/parking-transport";
 import {FaqPage} from "../pages/faq/faq";
 import {ContactPage} from "../pages/contact/contact";
+import {AccordianComponent} from "../components/accordian/accordian";
+
 
 
 
@@ -31,6 +33,8 @@ import {ContactPage} from "../pages/contact/contact";
     ParkingTransportPage,
     FaqPage,
     ContactPage,
+    AccordianComponent,
+
 
   ],
   imports: [
@@ -49,6 +53,8 @@ import {ContactPage} from "../pages/contact/contact";
     ParkingTransportPage,
     FaqPage,
     ContactPage,
+    AccordianComponent,
+
 
   ],
   providers: [
