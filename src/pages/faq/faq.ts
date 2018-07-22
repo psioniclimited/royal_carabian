@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, OnInit } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -13,13 +13,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-faq',
   templateUrl: 'faq.html',
 })
-export class FaqPage {
+export class FaqPage implements OnInit{
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  accordianExpanded = false;
+  @ViewChild('cc') cardComponent:any;
+
+  ngOnInit(){
+    console.log(this.cardComponent.nativeElement);
+  }
+
   ionViewDidLoad() {
-    console.log('ionViewDidLoad FaqPage');
+
+  }
+
+  toggleAccordian(){
+    console.log("testing");
   }
 
 }

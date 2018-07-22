@@ -4,7 +4,25 @@ page-faq {
     color: #54adad;
     font-weight: bold;
     font-size: 2.5rem;
-    height: 12.4vh;
+    height: 8.4vh;
+  }
+
+  .accordian-header{
+    background-color: #e3e3e3;
+    height: 8vh;
+    width: 100%;
+  }
+
+  .accordian-header-text{
+    color: #54adad;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 12vw;
+    padding-top: 2vh;
+  }
+
+  .accordian-body{
+    background-color: #ffffff;
   }
 
 }
