@@ -22,7 +22,7 @@ export class FaqPage implements OnInit{
   @ViewChild('cc') cardComponent:any;
 
   ngOnInit(){
-    console.log(this.cardComponent.nativeElement);
+    // console.log(this.cardComponent.nativeElement);
   }
 
   ionViewDidLoad() {

@@ -1,4 +1,4 @@
-import { Component, ViewChild, OnInit } from '@angular/core';
+import { Component, ViewChild, OnInit, Renderer } from '@angular/core';
 
 @Component({
   selector: 'accordian',
@@ -10,15 +10,26 @@ export class AccordianComponent implements OnInit{
   @ViewChild('cc') cardComponent:any;
 
 
-  constructor() {
+  constructor(public  renderer: Renderer) {
 
   }
 
   ngOnInit(){
-    console.log(this.cardComponent.nativeElement);
+    // console.log(this.cardComponent.nativeElement);
+    this.renderer.setElementStyle(this.cardComponent.nativeElement,"webkitTransition","max-height 500ms, padding 500ms");
   }
 
   toggleAccordian(){
+
+    if(this.accordianExpanded){
+      this.renderer.setElementStyle(this.cardComponent.nativeElement,"max-height","0px");
+      this.renderer.setElementStyle(this.cardComponent.nativeElement,"padding","0px 16px");
+    }else{
+      this.renderer.setElementStyle(this.cardComponent.nativeElement,"max-height","500px");
+      this.renderer.setElementStyle(this.cardComponent.nativeElement,"padding","13px 16px");
+    }
+
+    this.accordianExpanded = !this.accordianExpanded;
 
   }
 

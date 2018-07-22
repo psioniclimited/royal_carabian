@@ -4,7 +4,7 @@ page-faq {
     color: #54adad;
     font-weight: bold;
     font-size: 2.5rem;
-    height: 8.4vh;
+    height: 10.4vh;
   }
 
   .accordian-header{
@@ -21,8 +21,9 @@ page-faq {
     padding-top: 2vh;
   }
 
-  .accordian-body{
-    background-color: #ffffff;
+  .accordian-body-text{
+    background-color: red;
+    height: 0px;
   }
 
 }
