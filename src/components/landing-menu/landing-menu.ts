@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import {NavController} from "ionic-angular";
+import {EmbarkationPage} from "../../pages/embarkation/embarkation";
+import {ParkingTransportPage} from "../../pages/parking-transport/parking-transport";
 
 /**
  * Generated class for the LandingMenuComponent component.
@@ -23,9 +26,21 @@ export class LandingMenuComponent {
     {"background":"assets/Tabs/6.png","image":"assets/imgs/Documents.png","lable":"DOCUMENTS"},
   ];
 
-  constructor() {
+  constructor(private nav: NavController) {
     console.log('Hello LandingMenuComponent Component');
     this.text = 'Hello World';
+  }
+
+  embarkation() {
+    this.nav.push(EmbarkationPage);
+  }
+
+  disembarkation() {
+  console.log('tesitng');
+  }
+
+  parking() {
+    this.nav.push(ParkingTransportPage)
   }
 
 }
